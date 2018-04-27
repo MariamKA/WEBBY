@@ -1,0 +1,85 @@
+﻿<! Doctype html>
+<html>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="font-awesome.min.css">
+<link rel="stylesheet" href="CSS/style1.css">
+<style type="text/css">
+@import url(https://fonts.googleapis.com/css?family=Cabin+Sketch:700|Patrick+Hand+SC|Waiting+for+the+Sunrise);
+body{
+  
+  	background-image:url('Images/Back.jpg');
+  	background-size: 80% 100%;
+  	background-repeat: repeat-y ;
+  	background-position: center ;
+  	background-color: #613D30
+
+}
+form{
+  background-color:#613D30;
+  color:white;
+  border-radius:5px;
+  height:auto;
+  width:450px;
+  font-family:Patrick Hand SC;
+  font-size:25px
+}
+#wrapper{
+  margin-top:-50px;
+ float:center;
+}
+input{
+  font-family:Waiting for the Sunrise;
+  font-size:17px;
+  font-weight:bold;
+}
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+  <a href="HomePage.html" style="color:#613D30 ">Home</a>
+  <a href="#news" style="color: #613D30">About Us</a>
+  <div class="dropdown">
+    <button class="dropbtn" style="color:#613D30">Menu
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#" >Hot Drinks</a>
+      <a href="#">Cold Drinks</a>
+      <a href="#">Baking</a>
+    </div>
+  </div> 
+  <a href="Order_Form.html"style="color:#613D30" > Order Now</a>
+  <a href="#news" style="color:#613D30">Contact Us</a>
+</div>
+
+  <div id="wrapper">
+  <div id="inputs">
+  <div> 
+  
+<br/><br/>
+<br/><br/>
+<br/><br/>
+<center><form name="input" action="Checkout Form.html" method="post">
+  <h1>Order</h1>
+  First name: <input type="text" name="firstname" placeholder="Robert"><br/>
+  Last name: <input type="text" name="lastname" placeholder="Downey Jr"><br/>
+  Address:<textarea placeholder="1234 Street City, ST Zip">1234 Street City, ST Zip </textarea >
+ <br/>
+        <p>Comments:<br/></p>
+	  <textarea></textarea>
+	  <p></p>
+	  <input type="submit" value="Submit">
+</form>
+
+</center>
+</div>
+</div>
+</div>
+</body>
+</html>
